@@ -13,7 +13,7 @@ function Nav() {
         <nav className="navbar navbar-expand-md bg-body-tertiary">
   <div className="container-xl">
     <a className="navbar-brand" href="#">
-      <img src="https://codingyaar.com/wp-content/uploads/coding-yaar-logo.png" alt=""/>
+      <img src="images/confectionsbyaryalogo.jpg" alt=""/>
     </a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
