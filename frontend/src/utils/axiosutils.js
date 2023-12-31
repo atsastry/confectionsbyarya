@@ -11,7 +11,7 @@ const useRecipes = () => {
     useEffect(() => {
       const fetchRecipeData = async () => {
         const rawRecipeData = await fetch(
-          'http://localhost:3001/api/recipes'
+          'https://backend-jejjn5aroq-uc.a.run.app/api/recipes'
         );
         const recipeArray = await rawRecipeData.json();
         setRecipeData(recipeArray);
