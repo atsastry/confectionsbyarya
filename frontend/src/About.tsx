@@ -5,7 +5,7 @@ import {Link, useParams} from "react-router-dom";
 function About() {
     return (
         <div className="container">
-            <p>HELLOOOOOO. enjoy these recipes. my throat hurts</p>
+            <p>Hello! My name is Arya Sastry. </p>
         </div>
     );
 }
