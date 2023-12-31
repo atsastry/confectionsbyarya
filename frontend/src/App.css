@@ -1,0 +1,24 @@
+.pagecontainer {
+  padding-top: 10px;
+  border-top: 10px solid rgb(255, 153, 170);
+  margin-bottom: 50px;
+  border-bottom: 10px solid rgb(255, 153, 170);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px solid rgb(255, 153, 170);
+}
+/* 
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px solid rgb(255, 153, 170);
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 10px solid rgb(255, 153, 170);
+} */
