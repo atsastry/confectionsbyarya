@@ -21,3 +21,5 @@
     dir: 'frontend/'
   images:
   - 'gcr.io/$PROJECT_ID/github.com/atsastry/confectionsbyarya:$COMMIT_SHA'
+  options:
+  - logging: CLOUD_LOGGING_ONLY
