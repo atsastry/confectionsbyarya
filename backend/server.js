@@ -6,13 +6,12 @@ const { MongoClient, ServerApiVersion } = require('mongodb');
 
 const mongoose = require("mongoose");
 const uri = "mongodb+srv://recipes:bakingisfun@cluster0.tlzcb9k.mongodb.net/?retryWrites=true&w=majority";
- 
 
 const client = new MongoClient(uri, {
   serverApi: {
-    version: ServerApiVersion.v1,
+    version: ServerApiVersion.v1, //explain 
     strict: true,
-    deprecationErrors: true,
+    deprecationErrors: true, 
   }
 });
 

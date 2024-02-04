@@ -4,8 +4,8 @@ const itemSchema = new mongoose.Schema({
     id: Number,
     name: String, 
     price: Number, 
-    image: String, 
-    desc: String, 
+    image: String,    
+    desc: String,   
     ingredients: String, 
     recipe: String,
 })
