@@ -12,7 +12,7 @@ const client = new MongoClient(uri, {
     version: ServerApiVersion.v1, //explain 
     strict: true,
     deprecationErrors: true, 
-  }
+  } 
 });
 
 async function getAllRecipes(client) {
